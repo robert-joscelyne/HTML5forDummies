@@ -1,0 +1,63 @@
+@import url(http://fonts.googleapis.com/css?family=Luckiest+Guy&v2);
+
+header {
+  font-family: 'Luckiest Guy';
+  font-size: 2em;
+  height: 100px;
+  color: LimeGreen;
+  -webkit-animation-duration: 3s;
+  -moz-animation-duration: 3s;
+  animation-duration: 3s;
+  -webkit-animation-name: slidein;
+  -moz-animation-name: slidein;
+  animation-name: slidein;
+}
+
+@-webkit-keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+      }
+    to {
+      margin-left: 0%;
+      width: 100%;
+      }
+  }
+@-moz-keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+      }
+    to {
+      margin-left: 0%;
+      width: 100%;
+      }
+  }
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+      }
+    to {
+      margin-left: 0%;
+      width: 100%;
+      }
+  }
+article { 
+  -moz-border-radius: 15px; /* Firefox */  
+  -webkit-border-radius: 15px; /* Safari, Chrome */  
+  border-radius: 15px; /* CSS3 */  
+  padding: 10px;
+  height: 300px;
+  border-style: solid;
+  border-width: thin;
+  border-color: #000;
+}
+p {
+  font-size: 1em;
+}
+footer {
+  float: right;
+  margin-top: 2px;
+  font-size: .8em;
+}

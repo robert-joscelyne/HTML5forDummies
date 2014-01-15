@@ -1,0 +1,36 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+#topnav {
+	width:100%;
+    text-align:center;
+    background-color:#000000;
+    height:24px;
+    color:#FFFFFF;
+    }
+
+#topnav a {
+	color:#FFFFFF;
+    text-decoration: none;
+    }
+
+#topnav a:hover {
+	text-decoration: underline;
+	}
+
+#container {
+	width: 600px;
+    margin: 10px auto 10px auto;
+    border: 2px dotted #333333;
+    }
+
+#content {
+	padding:10px;
+	}
+
+footer {
+	font-size: .7em;
+    text-align: right;
+    }
+
